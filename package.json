@@ -1,0 +1,46 @@
+{
+  "name": "textlint-rule-alex",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azu/textlint-rule-alex.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/textlint-rule-alex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/textlint-rule-alex/issues"
+  },
+  "version": "1.0.0",
+  "description": "textlint rule for alex",
+  "main": "lib/textlint-rule-alex.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib --source-maps",
+    "watch": "babel src --out-dir lib --watch --source-maps",
+    "prepublish": "npm run --if-present build",
+    "test": "mocha"
+  },
+  "keywords": [
+    "textlint",
+    "alex"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-register": "^6.5.2",
+    "mocha": "^2.4.5",
+    "textlint-tester": "^0.4.1"
+  },
+  "dependencies": {
+    "alex": "^2.0.1",
+    "textlint-rule-helper": "^1.1.5"
+  }
+}
