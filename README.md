@@ -25,6 +25,10 @@ Via `.textlintrc`(Recommended)
 
 Via CLI
 
+```sh
+$ textlint --rule alex README.md
+```
+
 ## Options
 
 ### `allow`
