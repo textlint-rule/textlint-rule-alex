@@ -35,7 +35,7 @@ export default function textlintRuleAlex(context, options = {}) {
                 return;
             }
             const text = getSource(node);
-            const messages = alex.text(text, allowWords).messages;
+            const messages = alex(text, allowWords).messages;
             messages.forEach((result) => {
                 reportError(node, result);
             });

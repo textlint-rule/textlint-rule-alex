@@ -8,7 +8,13 @@ var tester = new TextLintTester();
 tester.run("alex", rule, {
     valid: [
         "This is a pen",
-        "男女"
+        "男女",
+        {
+            text: "The boogeyman",
+            options: {
+                allow: ["boogeyman-boogeywoman"]
+            }
+        }
     ],
     invalid: [
         {
