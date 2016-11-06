@@ -5,7 +5,7 @@ import alex from "alex";
 const defaultOptions = {
     allow: []
 };
-export default function textlintRuleAlex(context, options = {}) {
+module.exports = function textlintRuleAlex(context, options = {}) {
     const {Syntax, RuleError, report, getSource} = context;
     const helper = new RuleHelper(context);
     const allowWords = options.allow || defaultOptions.allow;
