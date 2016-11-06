@@ -1,8 +1,8 @@
-# textlint-rule-alex
+# textlint-rule-alex [![Build Status](https://travis-ci.org/azu/textlint-rule-alex.svg?branch=master)](https://travis-ci.org/azu/textlint-rule-alex)
 
 [textlint](https://github.com/textlint/textlint "textlint") rule for [ALEX](http://alexjs.com/ "ALEX").
 
-> Whether your own or someone else’s writing, alex helps you find gender favouring, polarising, race related, religion inconsiderate, or other unequal phrasing.  
+> Whether your own or someone else’s writing, alex helps you find gender favouring, polarising, race related, religion inconsiderate, or other unequal phrasing.
 > -- [wooorm/alex: Catch insensitive, inconsiderate writing](https://github.com/wooorm/alex#alexvalue-allow "wooorm/alex: Catch insensitive, inconsiderate writing")
 
 ## Installation
