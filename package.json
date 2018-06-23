@@ -2,14 +2,14 @@
   "name": "textlint-rule-alex",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/azu/textlint-rule-alex.git"
+    "url": "git+https://github.com/textlint-rule/textlint-rule-alex.git"
   },
   "author": "azu",
   "email": "azuciao@gmail.com",
-  "homepage": "https://github.com/azu/textlint-rule-alex",
+  "homepage": "https://github.com/textlint-rule/textlint-rule-alex",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/azu/textlint-rule-alex/issues"
+    "url": "https://github.com/textlint-rule/textlint-rule-alex/issues"
   },
   "version": "1.3.0",
   "description": "textlint rule for alex",

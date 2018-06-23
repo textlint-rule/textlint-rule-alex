@@ -1,4 +1,4 @@
-# textlint-rule-alex [![Build Status](https://travis-ci.org/azu/textlint-rule-alex.svg?branch=master)](https://travis-ci.org/azu/textlint-rule-alex)
+# textlint-rule-alex [![Build Status](https://travis-ci.org/textlint-rule/textlint-rule-alex.svg?branch=master)](https://travis-ci.org/textlint-rule/textlint-rule-alex)
 
 [textlint](https://github.com/textlint/textlint "textlint") rule for [ALEX](http://alexjs.com/ "ALEX").
 
