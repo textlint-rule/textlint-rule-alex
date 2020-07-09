@@ -21,7 +21,7 @@ tester.run("alex", rule, {
             text: "The boogeyman",
             errors: [
                 {
-                    message: "[boogeyman-boogeywoman] `boogeyman` may be insensitive, use `boogey` instead",
+                    message: "[boogeyman-boogeywoman] `boogeyman` may be insensitive, use `boogeymonster` instead",
                     line: 1,
                     column: 5
                 }
