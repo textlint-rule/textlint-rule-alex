@@ -12,7 +12,6 @@ module.exports = function textlintRuleAlex(context, options = {}) {
     const {Syntax, RuleError, report, getSource} = context;
     const helper = new RuleHelper(context);
     const opts = {...defaultOptions, ...options};
-    console.log('opts', opts);
     /*
     { [1:5-1:14: `boogeyman` may be insensitive, use `boogey` instead]
     message: '`boogeyman` may be insensitive, use `boogey` instead',
