@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/textlint-rule/textlint-rule-alex/issues"
   },
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "textlint rule for alex",
   "main": "lib/textlint-rule-alex.js",
   "files": [
