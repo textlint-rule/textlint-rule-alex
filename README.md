@@ -31,15 +31,51 @@ $ textlint --rule alex README.md
 
 ## Options
 
-### `allow`
+See [Alex's configuration documentation](https://github.com/get-alex/alex#configuration).
 
-See Alex's document: [Ignoring messages](https://github.com/wooorm/alex#ignoring-messages "Ignoring messages")
+### `allow`
 
 ```json
 {
     "rules": {
         "alex": {
              "allow": ["boogeyman-boogeywoman"]
+        }
+    }
+}
+```
+
+### `deny`
+
+```json
+{
+    "rules": {
+        "alex": {
+             "deny": ["boogeyman-boogeywoman"]
+        }
+    }
+}
+```
+
+### `noBinary`
+
+```json
+{
+    "rules": {
+        "alex": {
+             "noBinary": true
+        }
+    }
+}
+```
+
+### `profanitySureness`
+
+```json
+{
+    "rules": {
+        "alex": {
+             "profanitySureness": 2
         }
     }
 }

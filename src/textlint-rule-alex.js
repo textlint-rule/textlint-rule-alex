@@ -3,12 +3,16 @@
 import {RuleHelper} from "textlint-rule-helper";
 import alex from "alex";
 const defaultOptions = {
-    allow: []
+    allow: undefined,
+    deny: undefined,
+    noBinary: false,
+    profanitySureness: 0
 };
 module.exports = function textlintRuleAlex(context, options = {}) {
     const {Syntax, RuleError, report, getSource} = context;
     const helper = new RuleHelper(context);
-    const allowWords = options.allow || defaultOptions.allow;
+    const opts = {...defaultOptions, ...options};
+    console.log('opts', opts);
     /*
     { [1:5-1:14: `boogeyman` may be insensitive, use `boogey` instead]
     message: '`boogeyman` may be insensitive, use `boogey` instead',
@@ -35,7 +39,7 @@ module.exports = function textlintRuleAlex(context, options = {}) {
                 return;
             }
             const text = getSource(node);
-            const messages = alex(text, allowWords).messages;
+            const messages = alex(text, opts).messages;
             messages.forEach((result) => {
                 reportError(node, result);
             });
