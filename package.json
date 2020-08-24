@@ -35,7 +35,7 @@
     "textlint-scripts": "^3.0.0"
   },
   "dependencies": {
-    "alex": "^8.2.0",
+    "alex": "^9.0.1",
     "textlint-rule-helper": "^2.1.1"
   }
 }
