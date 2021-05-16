@@ -908,10 +908,15 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@textlint/ast-node-types@^4.2.1", "@textlint/ast-node-types@^4.3.5":
+"@textlint/ast-node-types@^4.3.5":
   version "4.3.5"
   resolved "https://registry.yarnpkg.com/@textlint/ast-node-types/-/ast-node-types-4.3.5.tgz#4fb2f81450c9135191b464c3955ebd3a3a95b4a6"
   integrity sha512-syl8VE34DQDTV7+IADP1jYtGsxTC9MmCKLmpJX90G6nNv9CzgAZIukd7WMiJFZpFgcDAlibEaCKlJRxjfEmmPA==
+
+"@textlint/ast-node-types@^4.4.3":
+  version "4.4.3"
+  resolved "https://registry.yarnpkg.com/@textlint/ast-node-types/-/ast-node-types-4.4.3.tgz#fdba16e8126cddc50f45433ce7f6c55e7829566c"
+  integrity sha512-qi2jjgO6Tn3KNPGnm6B7p6QTEPvY95NFsIAaJuwbulur8iJUEenp1OnoUfiDaC/g2WPPEFkcfXpmnu8XEMFo2A==
 
 "@textlint/ast-tester@^2.2.5":
   version "2.2.5"
@@ -1028,12 +1033,19 @@
   dependencies:
     "@textlint/text-to-ast" "^3.2.5"
 
-"@textlint/types@^1.1.2", "@textlint/types@^1.4.6":
+"@textlint/types@^1.4.6":
   version "1.4.6"
   resolved "https://registry.yarnpkg.com/@textlint/types/-/types-1.4.6.tgz#64dd33187bdc1bd90ea741496fbe58046227b167"
   integrity sha512-hoKPvIzNf+vI0goRk90HfsVUbXkAp4BfpvRxh51TGqVG27dlYrQJZkYheuUNUAwyj0Id09qzVwXno/xQPMYPcg==
   dependencies:
     "@textlint/ast-node-types" "^4.3.5"
+
+"@textlint/types@^1.5.5":
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/@textlint/types/-/types-1.5.5.tgz#9c82dbcbf4e00116573f05c6739c6c8ec3b35304"
+  integrity sha512-80P6fcqgsG9bP6JgR6W/E/oIx+71pplaicYCvvB4vMIeGk0OnWls4Q21kCpDYmq/C/ABtZ/Gy/Ov/8ExQPeQ7A==
+  dependencies:
+    "@textlint/ast-node-types" "^4.4.3"
 
 "@textlint/utils@^1.1.5":
   version "1.1.5"
@@ -4778,13 +4790,13 @@ text-table@^0.2.0:
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
 
-textlint-rule-helper@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/textlint-rule-helper/-/textlint-rule-helper-2.1.1.tgz#d572588685359134bc779939b217e61f087dab0f"
-  integrity sha512-6fxgHzoJVkjl3LaC1b2Egi+5wbhG4i0pU0knJmQujVhxIJ3D3AcQQZPs457xKAi5xKz1WayYeTeJ5jrD/hnO7g==
+textlint-rule-helper@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/textlint-rule-helper/-/textlint-rule-helper-2.2.0.tgz#30522ba904a03849d57ea3e5ebd5920027cd8da3"
+  integrity sha512-9S5CsgQuQwPjM2wvr4JGdpkLf+pR9gOjedSQFa/Dkrbh+D9MXt1LIR4Jvx1RujKtt2nq42prmEX2q3xOxyUcIQ==
   dependencies:
-    "@textlint/ast-node-types" "^4.2.1"
-    "@textlint/types" "^1.1.2"
+    "@textlint/ast-node-types" "^4.4.3"
+    "@textlint/types" "^1.5.5"
     structured-source "^3.0.2"
     unist-util-visit "^1.1.0"
 

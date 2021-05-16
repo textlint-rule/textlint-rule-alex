@@ -36,6 +36,6 @@
   },
   "dependencies": {
     "alex": "^9.1.0",
-    "textlint-rule-helper": "^2.1.1"
+    "textlint-rule-helper": "^2.2.0"
   }
 }
