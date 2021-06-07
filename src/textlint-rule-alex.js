@@ -8,7 +8,7 @@ const defaultOptions = {
     noBinary: false,
     profanitySureness: 0
 };
-module.exports = function textlintRuleAlex(context, options = {}) {
+export default function textlintRuleAlex(context, options = {}) {
     const {Syntax, RuleError, report, getSource} = context;
     const helper = new RuleHelper(context);
     const opts = {...defaultOptions, ...options};
