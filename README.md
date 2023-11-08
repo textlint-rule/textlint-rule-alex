@@ -83,6 +83,7 @@ See [Alex's configuration documentation](https://github.com/get-alex/alex#config
 
 ## Tests
 
+    corepack enable npm
     npm test
 
 ## Contributing
