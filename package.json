@@ -37,5 +37,6 @@
   "dependencies": {
     "alex": "^11.0.1",
     "textlint-rule-helper": "^2.3.0"
-  }
+  },
+  "packageManager": "npm@10.1.0"
 }
