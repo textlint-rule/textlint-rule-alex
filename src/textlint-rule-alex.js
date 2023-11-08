@@ -1,7 +1,7 @@
 // LICENSE : MIT
 "use strict";
 import {RuleHelper} from "textlint-rule-helper";
-import alex from "alex";
+
 const defaultOptions = {
     allow: undefined,
     deny: undefined,
@@ -33,7 +33,9 @@ export default function textlintRuleAlex(context, options = {}) {
         report(node, ruleError);
     };
     return {
-        [Syntax.Str](node){
+        async [Syntax.Str](node){
+           const alex = await import("alex").then(mod => mod.markdown); // markdown equals to default export https://github.com/get-alex/alex/blob/1b4c1be7991b30502cd56fb1d4769708df6853a5/index.js#L56
+
             if (helper.isChildNode(node, [Syntax.Link, Syntax.Image, Syntax.BlockQuote, Syntax.Emphasis])) {
                 return;
             }
