@@ -15,9 +15,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Install
-        run: |
-          yarn install
-          yarn add textlint-scripts --dev
-          yarn upgrade
+        run: yarn install
       - name: Test
         run: yarn test
