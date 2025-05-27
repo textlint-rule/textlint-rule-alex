@@ -32,7 +32,7 @@
     "alex"
   ],
   "devDependencies": {
-    "textlint-scripts": "^14.7.1"
+    "textlint-scripts": "^14.7.2"
   },
   "dependencies": {
     "alex": "^11.0.1",
